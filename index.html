@@ -15,25 +15,17 @@
     <div class="container">
       <h1 class="text-center">Akhan name</h1>
       <p class="text-center lead">If you are eager to know your akhan name fill the form below and submit!</p>
-      <div class="input-group p-3">
-        <label class="p-3" for="year">Year of Birth</label>
-        <input type="number" class="form-control" placeholder="Year of Birth Example; 2021" min="1920" max="2030" required>
-      </div>
-      <div class="input-group p-3">
-        <label class="p-3" for="year">Month of Birth</label>
-        <input type="number" class="form-control" placeholder="Year of Birth Example; jan; 1, feb; 2" min="1" max="12" required>
-      </div>
-      <div class="input-group p-3">
-        <label class="p-3" for="year">Day of Birth</label>
-        <input type="number" class="form-control" placeholder="day of Birth Example; 21" min="1" max="31" required>
-      </div>
-      <div class="h3 text-center">Gender</div>
-      <div class="gender text-center">
+      <div class="col-md-2 mx-auto">
+        <div class="date">
+        <input type="date" class="birthday-form" id="birthday">
+        </div>
+      <div class="h3 text-center p-2">Gender</div>
+      <div class="gender text-center p-2">
         <input type="radio" name="gender" value="male"> <span>male </span><br>
         <input type="radio" name="gender" value="female"><span>female</span>
         </div>
       <div class="text-center p-3">
-        <input type="submit" class="btn btn-primary text-center">
+        <input onclick="akhanName()" type="submit" class="btn btn-primary text-center">
         </div>
         <h5 class="text-center p-3">akhan name</h5>
         <div class="form text-center ">
