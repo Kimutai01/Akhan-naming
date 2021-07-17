@@ -17,19 +17,24 @@
       <p class="text-center lead">If you are eager to know your akhan name fill the form below and submit!</p>
       <div class="col-md-2 mx-auto">
         <div class="date">
-        <input type="date" class="birthday-form" id="birthday">
+        <input type="date" class="birthday-form" id="birthday"  value="date">
         </div>
       <div class="h3 text-center p-2">Gender</div>
       <div class="gender text-center p-2">
-        <input type="radio" name="gender" value="male" id="male"> <span>male </span><br>
-        <input type="radio" name="gender" value="female" id="female"><span>female</span>
+        <input type="radio" onclick="male()" name="gender" value="male" id="male"> <span>male </span><br>
+        <input type="radio" onclick="female()" name="gender" value="female" id="female"><span>female</span>
         </div>
       <div class="text-center p-3">
-        <input onclick="female()" type="submit" class="btn btn-primary text-center">
+        <input onclick="akhanName()" type="submit" class="btn btn-primary text-center text-light">
         </div>
         <h5 class="text-center p-3">akhan name</h5>
         <div class="form text-center ">
-          <input class="text" id="result" disabled>
+          <input class="text" id="result" >
+          <p id='cc'></p>
+          <p id='yy'></p>
+          <p id='mm'></p>
+          <p id='dd'></p>         
+
     </div>
 
     </div>
