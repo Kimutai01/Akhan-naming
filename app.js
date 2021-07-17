@@ -18,10 +18,16 @@ function female(){
 
 function akhanName(){
 
-    let CC = dates.substr(0,2);
-    let YY = dates.substr(2,2);
-    let MM = dates.substr(5,2);
-    let DD = dates.substr(8,2);
+    let date = document.getElementById('birthday').value
+
+    let CC = date.substr(0,2);
+    let YY = date.substr(2,2);
+    let MM = date.substr(5,2);
+    let DD = date.substr(8,2);
+
+    let theDay = (((CC/4) - 2 * CC - 1) + ((5 * YY/4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+    alert(theDay)
 
     
 }
+
