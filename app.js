@@ -34,48 +34,48 @@ function akhanName(){
 
   if(tra == 1 && kim=='male' ){
       alert(maleNames[1]);
-      document.getElementById('akan').innerHTML =('your name is' (maleNames[1]));
+      document.getElementById('akan').innerHTML =('your name is' +' ' + (maleNames[1]));
   } else if(tra==2 && kim=='male'){
       alert(maleNames[2])
-      document.getElementById('akan').innerHTML = ('your name is' (maleNames[2]));
+      document.getElementById('akan').innerHTML = ('your name is' + ' ' + (maleNames[2]));
   }else if(tra==3 && kim=='male'){
     alert(maleNames[3])
-    document.getElementById('akan').innerHTML = ('your name is' (maleNames[3]));
+    document.getElementById('akan').innerHTML = ('your name is' +' ' + (maleNames[3]));
   }else if(tra==4 && kim=='male'){
     alert(maleNames[4])
-    document.getElementById('akan').innerHTML = ('your name is' (maleNames[4]));
+    document.getElementById('akan').innerHTML = ('your name is' +' ' + (maleNames[4]));
   }else if(tra==5 && kim=='male'){
     alert(maleNames[5])
-    document.getElementById('akan').innerHTML = ('your name is' (maleNames[5]));
+    document.getElementById('akan').innerHTML = ('your name is' + ' ' +(maleNames[5]));
   }else if(tra==6 && kim=='male'){
     alert(maleNames[6])
-    document.getElementById('akan').innerHTML = ('your name is'(maleNames[6]));
+    document.getElementById('akan').innerHTML = ('your name is' + ' ' + (maleNames[6]));
   }else if(tra==0 && kim=='male'){
     alert(maleNames[0])
-    document.getElementById('akan').innerHTML = ('your name is'(maleNames[0]));
+    document.getElementById('akan').innerHTML = ('your name is' + ' ' + (maleNames[0]));
   }
 
   if(tra == 1 && kim=='female' ){
     alert(femaleNames[1]);
-    document.getElementById('akan').innerHTML = ('your name is'(femaleNames[1]));
+    document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[1]));
   } else if(tra==2 && kim=='female'){
     alert(femaleNames[2]);
-    document.getElementById('akan').innerHTML = ('your name is'(femaleNames[2]));
+    document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[2]));
   }else if(tra==3 && kim=='female'){
   alert(femaleNames[3]);
-  document.getElementById('akan').innerHTML = ('your name is'(femaleNames[3]));
+  document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[3]));
   }else if(tra==4 && kim=='female'){
   alert(femaleNames[4]);
-  document.getElementById('akan').innerHTML = ('your name is'(femaleNames[4]));
+  document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[4]));
   }else if(tra==5 && kim=='female'){
   alert(femaleNames[5]);
-  document.getElementById('akan').innerHTML = ('your name is'(femaleNames[5]));
+  document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[5]));
   }else if(tra==6 && kim=='female'){
   alert(femaleNames[6]);
-  document.getElementById('akan').innerHTML = ('your name is'(femaleNames[6]))
+  document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[6]))
   }else if(tra==0 && kim=='female'){
   alert(femaleNames[0]);
-  document.getElementById('akan').innerHTML = ('your name is'(femaleNames[0]));
+  document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[0]));
   }
 
 
