@@ -57,6 +57,30 @@ function akhanName(){
     document.getElementById('akan').innerHTML = (maleNames[0])
   }
 
+  if(tra == 1 && kim=='female' ){
+    alert(femaleNames[1]);
+    document.getElementById('akan').innerHTML = (femaleNames[1]);
+  } else if(tra==2 && kim=='female'){
+    alert(femaleNames[2]);
+    document.getElementById('akan').innerHTML = (femaleNames[2]);
+  }else if(tra==3 && kim=='female'){
+  alert(femaleNames[3]);
+  document.getElementById('akan').innerHTML = (femaleNames[3]);
+  }else if(tra==4 && kim=='female'){
+  alert(femaleNames[4]);
+  document.getElementById('akan').innerHTML = (maleNames[4]);
+  }else if(tra==5 && kim=='female'){
+  alert(femaleNames[5]);
+  document.getElementById('akan').innerHTML = (femaleNames[5]);
+  }else if(tra==6 && kim=='female'){
+  alert(femaleNames[6]);
+  document.getElementById('akan').innerHTML = (femaleNames[6])
+  }else if(tra==0 && kim=='female'){
+  alert(femaleNames[0]);
+  document.getElementById('akan').innerHTML = (femaleNames[0]);
+  }
+
+
 
     
     
