@@ -3,6 +3,7 @@
 function male() {
     let male=document.getElementById('male').value;
     document.getElementById('result').innerHTML = male;
+    alert(male)
 
 }
 
@@ -12,6 +13,8 @@ function female(){
 }
 
 function akhanName(){
+
+    
     
 
     let date = document.getElementById('birthday').value
@@ -60,14 +63,12 @@ function akhanName(){
   document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[6]));
   };
 
+  if(date==0){
+      alert('please enter date!' && main==0)
+  };
 
 
-    
-    
 
-
-    
-
-    
-}
+   
+};
 
