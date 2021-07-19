@@ -3,7 +3,6 @@
 function male() {
     let male=document.getElementById('male').value;
     document.getElementById('result').innerHTML = male;
-    alert(male)
 
 }
 
@@ -63,7 +62,7 @@ function akhanName(){
   document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[6]));
   };
 
-  if(date==0){
+  if(date==0) {
       alert('please enter date!' && main==0)
   };
 
