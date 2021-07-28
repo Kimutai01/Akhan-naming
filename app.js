@@ -62,10 +62,15 @@ function akhanName(){
   document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[6]));
   };
 
+  if (date =='' && document.getElementById('result').innerHTML == 'gender'){
+    alert('please enter name and gender')
+  }
+  if(document.getElementById('result').innerHTML== 'gender'){
+    alert('please enter gender')
+  }
   if (date == '') {
     alert('please enter date!')
   };
-
 
    
 };
