@@ -62,7 +62,7 @@ function akhanName(){
   document.getElementById('akan').innerHTML = ('your name is' + ' ' + (femaleNames[6]));
   };
 
-  if (date == 0) {
+  if (date == '') {
     alert('please enter date!')
   };
 
