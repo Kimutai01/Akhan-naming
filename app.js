@@ -61,12 +61,30 @@ function akhanName() {
 
 
  if (date == '' && document.getElementById('result').innerHTML == 'gender') {
-    alert('please enter name and gender')
+    swal({
+      title: "error!",
+      text: "Please enter date and gender",
+      icon: "error",
+    });
   }else if(document.getElementById('result').innerHTML == 'gender') {
-    alert('please enter gender')
+    swal({
+      title: "error!",
+      text: "Please enter gender",
+      icon: "error",
+    });
   }else if (date == '') {
-    alert('please enter date!')
-  };
+    swal({
+      title: "error!",
+      text: "Please enter date",
+      icon: "error",
+    });
+  }else{
+    swal({
+      title: "Success!",
+      text: "see your akhan name below",
+      icon: "success",
+    });
+  }
 
 
 };
