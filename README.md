@@ -19,5 +19,5 @@ $ git clone https://github.com/Kimutai01/akhan-naming.git
 {if you have any questions you can contact me through kiprotichkimutai01@gmail.com
 You are encouraged to make changes}
 ### License
-*{MIT license}*
+*{None}*
 Copyright (c) {2021} **{Kiprotich Kimutai}**
