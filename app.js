@@ -60,16 +60,13 @@ function akhanName() {
   };
 
 
-  if (date == '' && document.getElementById('result').innerHTML == 'gender') {
+ if (date == '' && document.getElementById('result').innerHTML == 'gender') {
     alert('please enter name and gender')
-  }
-  if (document.getElementById('result').innerHTML == 'gender') {
+  }else if(document.getElementById('result').innerHTML == 'gender') {
     alert('please enter gender')
-  }
-  if (date == '') {
+  }else if (date == '') {
     alert('please enter date!')
   };
-
 
 
 };
