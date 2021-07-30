@@ -2,7 +2,7 @@
 #### {It is a web application that takes your date of birth and gender and gives you your akhan name}, {2021}
 #### By **{Kiprotich Kimutai}**
 ## Description
-{This web application is designed to give you your akhan name according to your date of birth and gender. <br> The link to the live site is https://kimutai01.github.io/akhan-naming/}
+{This web application is designed to give you your akhan name according to your date of birth and gender. <br> The link to the live site is https://kimutai01.github.io/akhan-naming/    }
 ## Setup/Installation Requirements
  Fork or clone the repository
  ```
